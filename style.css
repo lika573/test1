@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+}
+    
+
+
+header h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.image img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-color: #666;
+}
+footer {
+    background-color: rgb(219, 212, 212);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.header {
+    background-color: #004466;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.main {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.info {
+    max-width: 700px;
+    background-color: #fff;
+    border-left: 6px solid #004466;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.h3 {
+    font-size: 1.8em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+.p {
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+header.ee {
+    background-color: #004466;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header.ee h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+main.mi {
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+main.mi h2 {
+    font-size: 1.8em;
+    color: #004466;
+    margin-bottom: 20px; 
+}
+
+main.mi p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 25px; 
+}
+
+
+.link-button {
+    display: inline-block;
+    background-color: #0077aa;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; 
+}
+
+.link-button:hover {
+    background-color: #005577;
+}
+
+
+footer {
+    background-color: #004466;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
